@@ -34,5 +34,5 @@ jobs:
           docker buildx build \
             --push \
             --platform=linux/amd64,linux/arm64 \
-            --tag=${{ vars.IMAGE_REGISTRY }}/awx-ee:latest \
+            --tag=ghcr.io/darsh12/awx-ee:latest \
             context
